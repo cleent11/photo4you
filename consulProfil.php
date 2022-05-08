@@ -18,6 +18,7 @@
           <?php echo "<p class='lead'>Vos crédit(s) : ".$_SESSION['credit']."</p>" ?>
           <hr class="my-4"> 
           <a href="ajoutcredit.php"><button class="btn btn-success">rajouter des credits</button></a>
+          <hr class="my-4"> 
     </div>
   <?php
     include ("include/piedDePage.inc.php");
